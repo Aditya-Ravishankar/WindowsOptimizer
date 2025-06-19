@@ -1,0 +1,13 @@
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 1
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 2
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 3
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 4
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 5
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 6
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 7
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 8
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 9
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 10
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 11
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 12
+HKEY_LOCAL_MACHINE SOFTWARE\Policies\Microsoft\Windows\OneDrive DWORD DisableFileSyncNGSC 13
