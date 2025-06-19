@@ -12,7 +12,7 @@ public:
 
     [[nodiscard]]
     static
-    bool UpsertRegistryKey(const HKEY & hive, const std::string & path, const std::string & type, const std::string & name, const std::string & data)
+    bool UpsertRegistryKey(const HKEY & hive, const std::string & path, const DWORD & type, const std::string & name, const std::string & data)
     {
         bool isUpsertOk;
 
@@ -41,7 +41,7 @@ public:
                 hKey,                                           // Handle to key
                 valueName,                                      // Value name
                 0,                                              // Reserved
-                REG_SZ,                                         // Value type
+                type,                                           // Value type
                 reinterpret_cast<const BYTE *>(valueData),      // Data
                 (DWORD)(strlen(valueData) + 1)                  // Data size
             );
@@ -106,7 +106,7 @@ public:
         {
             const HKEY& hive = hiveMap.at(r.at(0));
             const string& path = r.at(1);
-            const string& type = r.at(2);
+            const DWORD type = keyTypeMap.at(r.at(2));
             const string& name = r.at(3);
             const string& data = r.at(4);
 
