@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include <format>
-#include "Optimizations/Profiles.cpp"
+#include "Optimization/Optimize.cpp"
 
 int main()
 {
@@ -42,7 +42,7 @@ int main()
         case 5:
         case 6:
             {
-                const bool isOptimizeOk = Profiles::RunOptimize(optimizationType);
+                const bool isOptimizeOk = Optimize::RunOptimize(optimizationType);
                 std::cout << "isOptimizeOk: " << isOptimizeOk << '\n';
                 break;
             }
